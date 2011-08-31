@@ -1,0 +1,45 @@
+﻿/*
+Date:03-18-2009
+Aurthor:Prabin Shrestha
+email:shprabin@gmail.com
+*/
+.jui_gridview {
+	border: 1px solid #99CCFF;
+}
+
+.mouseover{
+	background-color: #F0F0FF;
+}
+
+.jui_gridview tr.header {
+	background-image: url('../../../../LocalCopy/images/btn_bg.jpg');
+	background-repeat: repeat-x;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: #003399;
+}
+.jui_gridview tr.header td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #99CCFF;
+}
+span.updownsign {
+	font-family: "Webdings";
+	font-size: 10px;
+	color: #003399;
+}
+
+
+.jui_gridview td {
+	font-family: Arial;
+	font-size: 11px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #EBEBEB;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #EBEBEB;
+}

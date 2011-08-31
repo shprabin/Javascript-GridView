@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> Gridview sample</title>
+<script type="text/javascript" src="GridView.js"> </script> 
+<link rel="stylesheet" type="text/css" href="styles.css"></link>
+<script type="text/javascript">
+//Create a gridview Instance
+var gview = new JUI.Component.GridView("gridview");
+//Define a gridview header column
+gview.header.row=[ {Name:"ID",Label:"ID",Width:"30px"},
+					{Name:"Name",Label:"Name Of People",Width:"200px"},
+					{Name:"SSN",Label:"Social Security",Width:"100px"},
+					{Name:"Email",Label:"email",Width:"200px"}
+					];
+//Insert Data in the Gridview
+gview.data.addRow({ID:"5",Name:"Prabin Shrestha",SSN:"123-123-123", Email:"xxxxxxx@gmail.com"});
+gview.data.addRow({ID:"2",Name:"Paurash Singh", SSN:"546-123-123", Email:"paurash@hotmail.com"});
+gview.data.addRow({ID:"3",Name:"Sonesh Shrestha", SSN:"456-123-123", Email:"sonesh@gmail.com"});
+gview.data.addRow({ID:"4",Name:"Dhruba Chapain", SSN:"333-123-123", Email:"dhruba@gmail.com"});
+gview.data.addRow({ID:"1",Name:"Prabin Manandhar", SSN:"442-123-123", Email:"prabinmanandhar@gmail.com"});			 
+
+
+
+
+</script>
+</head>
+<body>
+<div id="gridview" > </div>
+<script type="text/javascript">gview.render();</script>
+</body>
+</html>
