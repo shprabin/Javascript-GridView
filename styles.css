@@ -1,7 +1,7 @@
 ﻿/***************
-Date:03-18-2009
-Aurthor:Prabin Shrestha
-email:shprabin@gmail.com
+Date: 03-18-2009
+Aurthor: Prabin Shrestha
+email: shprabin@gmail.com
 
 ************/
 .jui_gridview {
@@ -13,7 +13,7 @@ email:shprabin@gmail.com
 }
 
 .jui_gridview tr.header {
-	background-image: url('../../../../LocalCopy/images/btn_bg.jpg');
+	background-image: url('/images/btn_bg.jpg');
 	background-repeat: repeat-x;
 	font-family: Arial;
 	font-size: 12px;
